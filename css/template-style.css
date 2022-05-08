@@ -101,6 +101,10 @@ h6.headline, .h6.headline {
 .text-right {
   text-align: right;
 }
+.text-justified {
+  text-align: justify;
+  text-justify: inter-word;
+}
 .text-thin {
   font-weight: 300;
 }
@@ -671,6 +675,9 @@ aside.aside-left {
 }
 .padding-2x {
   padding: 2.5rem!important;
+}
+.padding-4x {
+  padding: 5rem!important;
 }
 .full-width:after {
   clear:both;
