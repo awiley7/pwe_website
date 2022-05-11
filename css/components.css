@@ -200,3 +200,17 @@ a.tooltip-content.tooltip-bottom,.tooltip-content.tooltip-bottom {
 .button:hover > i {
   background: rgba(0, 0, 0, 0.06) none repeat scroll 0 0;
 }
+
+/* Social Icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
