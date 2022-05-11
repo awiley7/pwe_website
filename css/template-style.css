@@ -2111,3 +2111,11 @@ video {
     padding: 0;
   }
 }    
+
+.tab { 
+  margin-left: 40px; 
+}
+
+.bolded { 
+  font-weight: bold; 
+}
