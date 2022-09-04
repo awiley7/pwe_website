@@ -489,9 +489,12 @@ body {
   font-size: 2rem;
 }
 
+.who-we-are-img {
+  text-align: center;
+}
+
 .img-guy-containers {
   width: 70%;
-  justify-self: center;
 }
 
 /**************************/
