@@ -73,7 +73,7 @@ allLinks.forEach(function (link) {
       sectionEl.scrollIntoView({ behavior: "smooth" });
     }
 
-    if (href.endsWith(".html")) {
+    if (href.endsWith(".html") || (href.startsWith("http")) {
       window.location.href = href;
     }
 
