@@ -158,6 +158,10 @@ body {
   gap: 9.6rem;
 }
 
+.grid--1-col {
+  grid-template-columns: 1fr;
+}
+
 .grid--2-cols {
   grid-template-columns: repeat(2, 1fr);
 }
