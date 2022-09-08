@@ -597,8 +597,13 @@ body {
   margin-bottom: 0;
 }
 
+.import-export-img-box {
+  /* width: 15%; */
+}
+
 .import-export-img {
-  height: 40rem;
+  width: 35rem;
+  height: 35rem;
 }
 
 .import-export-name {
@@ -690,6 +695,15 @@ body {
   width: 50%;
   text-align: center;
   margin: 4.8rem auto;
+}
+
+.certifications {
+  display: flex;
+  justify-content: center;
+}
+
+.img-cert {
+  width: 20rem;
 }
 
 /**************************/
