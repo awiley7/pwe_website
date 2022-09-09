@@ -408,6 +408,11 @@ Instead, 1rem = 1em = 16px
     font-size: 3rem;
   }
 
+  .cs-ids {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
   .grid--founders {
     grid-template-columns: 1fr;
   }
