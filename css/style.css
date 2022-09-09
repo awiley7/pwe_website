@@ -701,6 +701,49 @@ body {
   margin: 4.8rem auto;
 }
 
+.capability-statement {
+  margin: 9.6rem auto;
+}
+
+.cs-ids {
+  display: flex;
+  justify-content: center;
+  gap: 9.6rem;
+}
+
+.cs-text {
+  font-size: 2rem;
+}
+
+table {
+  max-width: 80rem;
+  margin: 4.8rem auto 9.6rem auto;
+  /* border: 1px solid #343a40; */
+  border-collapse: collapse;
+  font-size: 1.8rem;
+}
+
+td,
+th {
+  /* border: 1px solid #343a40; */
+  padding: 1.6rem 2.4rem;
+  text-align: left;
+}
+
+thead th:first-child {
+  background-color: #1882b7;
+  color: #fff;
+  width: 25%;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f8f9fa;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e9ecef;
+}
+
 .certifications {
   display: flex;
   justify-content: center;
