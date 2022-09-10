@@ -38,6 +38,9 @@
     ></script>
     <script defer src="js/script.js"></script>
 
+    <!-- 1. Import the @botpoison/browser script -->
+    <script src="https://unpkg.com/@botpoison/browser" async></script>
+
     <!-- Cookie Consent by TermsFeed Privacy Policy and Consent Generator https://www.TermsFeed.com -->
     <script
       type="text/javascript"
@@ -151,6 +154,7 @@
                 name="contactForm"
                 class="customform"
                 action="https://submit-form.com/XoDboHk3"
+                data-botpoison-public-key="pk_6d1691d4-73fc-4cf3-b581-e8aa640481b3"
                 method="POST"
               >
                 <div>
@@ -205,8 +209,7 @@
                     name="form-request"
                     id="form-request"
                     placeholder="We are looking for..."
-                  >
-                  </textarea>
+                  ></textarea>
                 </div>
                 <button class="btn btn--form">Submit</button>
               </form>
