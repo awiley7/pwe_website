@@ -730,9 +730,12 @@ th {
   text-align: left;
 }
 
-thead th:first-child {
+thead th {
   background-color: #1882b7;
   color: #fff;
+}
+
+thead th:first-child {
   width: 25%;
 }
 
