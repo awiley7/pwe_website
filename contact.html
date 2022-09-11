@@ -153,7 +153,7 @@
                 class="cta-form"
                 name="contactForm"
                 class="customform"
-                action="https://submit-form.com/XoDboHk3"
+                action="https://submit-form.com/SAX1hj7F"
                 data-botpoison-public-key="pk_6d1691d4-73fc-4cf3-b581-e8aa640481b3"
                 method="POST"
               >
@@ -161,6 +161,7 @@
                   <label for="full-name">Full Name</label>
                   <input
                     id="full-name"
+                    name="name"
                     type="text"
                     placeholder="John Snow"
                     required
@@ -170,6 +171,7 @@
                   <label for="email">Email Address</label>
                   <input
                     id="email"
+                    name="email"
                     type="email"
                     placeholder="me@example.com"
                     required
@@ -179,6 +181,7 @@
                   <label for="business">Company</label>
                   <input
                     id="business"
+                    name="business"
                     type="text"
                     placeholder="ABC Company"
                     required
@@ -186,7 +189,7 @@
                 </div>
                 <div>
                   <label for="select-where">Where did you hear from us?</label>
-                  <select id="select-where" required>
+                  <select id="select-where" name="select-where" required>
                     <option value="">Please choose one option:</option>
                     <option value="friends">Friends and family</option>
                     <option value="youtube">LinkedIn</option>
@@ -198,12 +201,6 @@
                 </div>
                 <div class="form-detail">
                   <label for="form-request">How can we help</label>
-                  <!-- <input
-                    id="request"
-                    type="text"
-                    placeholder="We are looking for..."
-                    required
-                  /> -->
                   <textarea
                     rows="4"
                     name="form-request"
@@ -211,7 +208,7 @@
                     placeholder="We are looking for..."
                   ></textarea>
                 </div>
-                <button class="btn btn--form">Submit</button>
+                <button class="btn btn--form" type="submit">Submit</button>
               </form>
             </div>
             <div
