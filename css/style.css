@@ -427,12 +427,16 @@ body {
   text-align: center;
 }
 
+.service-heading,
+.service-text {
+  text-align: center;
+}
+
 .service-heading {
   font-size: 2rem;
   font-weight: bold;
   margin-bottom: 2.4rem;
   color: #1864ab;
-  text-align: center;
 }
 
 .service-text {
