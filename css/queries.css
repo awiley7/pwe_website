@@ -631,4 +631,10 @@ Instead, 1rem = 1em = 16px
   .founder-role {
     font-size: 1.2rem;
   }
+
+  .offer-link:link,
+  .offer-link:visited {
+    display: inline-block;
+    font-size: 2rem;
+  }
 }
