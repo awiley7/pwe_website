@@ -11,8 +11,8 @@
     can help you buy and sell products, help with logistics and more!"
     />
     <link rel="icon" href="img/favicon.png" />
-    <link href="css/style.css" rel="stylesheet" />
-    <link href="css/queries.css" rel="stylesheet" />
+    <link href="../../css/style.css" rel="stylesheet" />
+    <link href="../../css/queries.css" rel="stylesheet" />
     <title>Template &vert; Pineda & Wiley Enterprises</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -36,7 +36,7 @@
       defer
       src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
     ></script>
-    <script defer src="js/script.js"></script>
+    <script defer src="../../js/script.js"></script>
 
     <!-- Cookie Consent by TermsFeed Privacy Policy and Consent Generator https://www.TermsFeed.com -->
     <script
@@ -92,39 +92,43 @@
     <!-- HEADER -->
     <header class="header">
       <div class="company-info">
-        <img class="logo-header" src="img/logos/logo.png" alt="pwe-logo" />
+        <img
+          class="logo-header"
+          src="../../img/logos/logo.png"
+          alt="pwe-logo"
+        />
         <span class="header-company-name">Pineda & Wiley Enterprises</span>
       </div>
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a href="index.html" class="main-nav-link">Home</a></li>
+          <li><a href="../../index.html" class="main-nav-link">Home</a></li>
           <li>
             <a class="main-nav-link nav-services">Services</a>
             <ul class="dropdown">
               <li>
-                <a class="dropdown-item" href="services/import-export.html"
+                <a class="dropdown-item" href="../import-export.html"
                   >Import & Export</a
                 >
               </li>
               <li>
-                <a class="dropdown-item" href="services/trade-broker.html"
+                <a class="dropdown-item" href="../trade-broker.html"
                   >Trade Broker</a
                 >
               </li>
               <li>
-                <a
-                  class="dropdown-item"
-                  href="services/government-services.html"
+                <a class="dropdown-item" href="../government-services.html"
                   >Government Services</a
                 >
               </li>
             </ul>
           </li>
           <li>
-            <a href="about.html" class="main-nav-link">About</a>
+            <a href="../../about.html" class="main-nav-link">About</a>
           </li>
-          <li><a href="blog.html" class="main-nav-link">Blog</a></li>
-          <li><a href="contact.html" class="main-nav-link">Contact</a></li>
+          <li><a href="../../blog.html" class="main-nav-link">Blog</a></li>
+          <li>
+            <a href="../../contact.html" class="main-nav-link">Contact</a>
+          </li>
         </ul>
       </nav>
       <button class="btn-mobile-nav">
@@ -139,14 +143,53 @@
           <h1 class="heading-primary">Current Offers</h1>
           <p class="text">
             Take a look at our current offers and reach out to us if interested
-            or if you want to post your products as well!
+            or if you want to post your products on here as well.
+          </p>
+          <p class="text">
+            Need materials to market your products? We can help with that too,
+            helping you create proposals, catalogs and marketing materials to
+            share your company and production information.
           </p>
         </div>
       </section>
 
       <section class="section section-offers">
         <div class="container">
-          <div class="offer-container">
+          <p class="text">Click on the buttons to filter by category</p>
+          <div id="btn-container">
+            <button
+              class="btn btn--offer active"
+              onclick="filterSelection('all')"
+            >
+              Show all
+            </button>
+            <button
+              class="btn btn--offer"
+              onclick="filterSelection('fruits-veggies')"
+            >
+              Fruits &amp; Vegetables
+            </button>
+            <button class="btn btn--offer" onclick="filterSelection('coffee')">
+              Coffee
+            </button>
+            <button class="btn btn--offer" onclick="filterSelection('tobacco')">
+              Tobacco
+            </button>
+            <button class="btn btn--offer" onclick="filterSelection('seafood')">
+              Seafood
+            </button>
+            <button
+              class="btn btn--offer"
+              onclick="filterSelection('natural-resources')"
+            >
+              Natural Resources
+            </button>
+            <button class="btn btn--offer" onclick="filterSelection('other')">
+              Other
+            </button>
+          </div>
+
+          <div class="offer-container filter-div natural-resources">
             <h3 class="heading-tertiary">Pure Liquid Mercury</h3>
             <p class="text offer-date"><em>Date posted: 2022-09-26</em></p>
             <p class="text offer-cta">Pure Liquid Mercury for export!</p>
@@ -156,7 +199,7 @@
               and minimum order is 30 flasks 200 flasks available.
             </p>
           </div>
-          <div class="offer-container">
+          <div class="offer-container filter-div natural-resources">
             <h3 class="heading-tertiary">Thermal Coal</h3>
             <p class="text offer-date"><em>Date posted: 2022-08-03</em></p>
             <p class="text offer-cta">Bulk Type B Thermal Coal for export!</p>
@@ -165,29 +208,40 @@
               Specifications and SGS report attached.
             </p>
             <div class="offer-links">
-              <a href="docs/thermal-coal.pdf" class="offer-link" target="_blank"
+              <a
+                href="../../docs/thermal-coal.pdf"
+                class="offer-link"
+                target="_blank"
                 >Specifications</a
               >
-              <a href="docs/sgs-report.jpeg" class="offer-link" target="_blank"
+              <a
+                href="../../docs/sgs-report.jpeg"
+                class="offer-link"
+                target="_blank"
                 >SGS Report</a
               >
             </div>
           </div>
-          <div class="offer-container">
-            <h3 class="heading-tertiary">Hounduran Coffee Beans</h3>
+          <div class="offer-container filter-div coffee">
+            <h3 class="heading-tertiary">Coffee</h3>
             <p class="text offer-date"><em>Date posted: 2022-07-21</em></p>
-            <p class="text offer-cta">Coffee bean containers for sale!</p>
+            <p class="text offer-cta">
+              Honduran Coffee beans containers for sale!
+            </p>
             <p class="text offer-description">
               40ft containers of Honduran coffee beans ready for sale. Honduras
               is the top coffee exporter in Central America with quality on par
               with the top growers in the world.
             </p>
             <div class="offer-links">
-              <a href="docs/gold-coffee.pdf" class="offer-link" target="_blank"
+              <a
+                href="../../docs/gold-coffee.pdf"
+                class="offer-link"
+                target="_blank"
                 >Gold Proposal</a
               >
               <a
-                href="docs/arabica-coffee.pdf"
+                href="../../docs/arabica-coffee.pdf"
                 class="offer-link"
                 target="_blank"
                 >Arabica Proposal</a
@@ -286,10 +340,10 @@
     <footer class="footer">
       <div class="grid grid--footer">
         <div class="footer-bio">
-          <a class="footer-logo" href="index.html">
+          <a class="footer-logo" href="../../index.html">
             <img
               class="logo-footer"
-              src="img/logos/logo-footer.png"
+              src="../../img/logos/logo-footer.png"
               alt="pwe-logo"
             />
           </a>
@@ -322,11 +376,15 @@
         <nav class="nav-col">
           <p class="footer-heading">Useful Links</p>
           <ul class="footer-nav">
-            <li><a class="footer-link" href="index.html">Home</a></li>
-            <li><a class="footer-link" href="services.html">Services</a></li>
-            <li><a class="footer-link" href="about.html">About</a></li>
-            <li><a class="footer-link" href="blog.html">Blog</a></li>
-            <li><a class="footer-link" href="contact.html">Contact</a></li>
+            <li><a class="footer-link" href="../../index.html">Home</a></li>
+            <li>
+              <a class="footer-link" href="../../services.html">Services</a>
+            </li>
+            <li><a class="footer-link" href="../../about.html">About</a></li>
+            <li><a class="footer-link" href="../../blog.html">Blog</a></li>
+            <li>
+              <a class="footer-link" href="../../contact.html">Contact</a>
+            </li>
           </ul>
         </nav>
 
@@ -367,9 +425,11 @@
           LLC. All rights reserved.
         </p>
         <div class="policies">
-          <a href="terms-conditions.html" class="policy">Terms & Conditions</a>
-          <a href="privacy-policy.html" class="policy">Privacy Policy</a>
-          <a href="sitemap.xml" class="policy">Site Map</a>
+          <a href="../../terms-conditions.html" class="policy"
+            >Terms & Conditions</a
+          >
+          <a href="../../privacy-policy.html" class="policy">Privacy Policy</a>
+          <a href="../../sitemap.xml" class="policy">Site Map</a>
         </div>
       </div>
     </footer>
