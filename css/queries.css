@@ -430,6 +430,10 @@ Instead, 1rem = 1em = 16px
     height: 32rem;
     grid-row: 1;
   }
+
+  .btn--offer {
+    font-size: 1.6rem;
+  }
 }
 
 /* BELOW 544 pixels (Phones) */
@@ -630,5 +634,15 @@ Instead, 1rem = 1em = 16px
 
   .founder-role {
     font-size: 1.2rem;
+  }
+
+  .offer-link:link,
+  .offer-link:visited {
+    display: inline-block;
+    font-size: 2rem;
+  }
+
+  .btn--offer {
+    font-size: 1.4rem;
   }
 }

@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A group of people-first entrepreneurs that
+    will help you grow your buisness by assisting with international trade. We
+    can help you buy and sell products, help with logistics and more!"
+    />
+    <link rel="icon" href="../../img/favicon.png" />
+    <link href="../../css/style.css" rel="stylesheet" />
+    <link href="../../css/queries.css" rel="stylesheet" />
+    <title>Current Offers &vert; Pineda & Wiley Enterprises</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <script defer src="../../js/script.js"></script>
+
+    <!-- Cookie Consent by TermsFeed Privacy Policy and Consent Generator https://www.TermsFeed.com -->
+    <script
+      type="text/javascript"
+      src="https://www.termsfeed.com/public/cookie-consent/4.0.0/cookie-consent.js"
+      charset="UTF-8"
+    ></script>
+    <script type="text/javascript" charset="UTF-8">
+      document.addEventListener("DOMContentLoaded", function () {
+        cookieconsent.run({
+          notice_banner_type: "simple",
+          consent_type: "express",
+          palette: "light",
+          language: "en",
+          page_load_consent_levels: ["strictly-necessary"],
+          notice_banner_reject_button_hide: false,
+          preferences_center_close_button_hide: false,
+          page_refresh_confirmation_buttons: false,
+          website_name: "Pineda & Wiley Enterprises, LLC",
+          website_privacy_policy_url:
+            "https://pinedawileyenterprises.com/privacy-policy.html",
+        });
+      });
+    </script>
+
+    <!-- Google Analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      type="text/plain"
+      cookie-consent="tracking"
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-DEEF0GNB6G"
+    ></script>
+    <script type="text/plain" cookie-consent="tracking">
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DEEF0GNB6G');
+    </script>
+    <!-- end of Google Analytics-->
+
+    <noscript
+      >ePrivacy and GPDR Cookie Consent management by
+      <a href="https://www.TermsFeed.com/" rel="nofollow"
+        >TermsFeed Privacy Policy and Consent Generator</a
+      ></noscript
+    >
+    <!-- End Cookie Consent by TermsFeed Privacy Policy and Consent Generator https://www.TermsFeed.com -->
+  </head>
+
+  <body class="sticky">
+    <!-- HEADER -->
+    <header class="header">
+      <div class="company-info">
+        <img
+          class="logo-header"
+          src="../../img/logos/logo.png"
+          alt="pwe-logo"
+        />
+        <span class="header-company-name">Pineda & Wiley Enterprises</span>
+      </div>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a href="../../index.html" class="main-nav-link">Home</a></li>
+          <li>
+            <a class="main-nav-link nav-services">Services</a>
+            <ul class="dropdown">
+              <li>
+                <a class="dropdown-item" href="../import-export.html"
+                  >Import & Export</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="../trade-broker.html"
+                  >Trade Broker</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="../government-services.html"
+                  >Government Services</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="../../about.html" class="main-nav-link">About</a>
+          </li>
+          <li><a href="../../blog.html" class="main-nav-link">Blog</a></li>
+          <li>
+            <a href="../../contact.html" class="main-nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <section class="section-first">
+        <div class="container">
+          <h1 class="heading-primary">Current Offers</h1>
+          <p class="text">
+            Take a look at our current offers and reach out to us if interested
+            or if you want to post your products on here as well.
+          </p>
+          <p class="text">
+            Need materials to market your products? We can help with that too,
+            helping you create proposals, catalogs and marketing materials to
+            share your company and production information.
+          </p>
+        </div>
+      </section>
+
+      <section class="section section-offers">
+        <div class="container">
+          <p class="text">Click on the buttons to filter by category</p>
+          <div id="btn-container">
+            <button
+              class="btn btn--offer active"
+              onclick="filterSelection('all')"
+            >
+              Show all
+            </button>
+            <button
+              class="btn btn--offer"
+              onclick="filterSelection('fruits-veggies')"
+            >
+              Fruits &amp; Vegetables
+            </button>
+            <button class="btn btn--offer" onclick="filterSelection('coffee')">
+              Coffee
+            </button>
+            <button class="btn btn--offer" onclick="filterSelection('tobacco')">
+              Tobacco
+            </button>
+            <button class="btn btn--offer" onclick="filterSelection('seafood')">
+              Seafood
+            </button>
+            <button
+              class="btn btn--offer"
+              onclick="filterSelection('natural-resources')"
+            >
+              Natural Resources
+            </button>
+            <button class="btn btn--offer" onclick="filterSelection('other')">
+              Other
+            </button>
+          </div>
+
+          <div class="offer-container filter-div natural-resources">
+            <h3 class="heading-tertiary">Pure Liquid Mercury</h3>
+            <p class="text offer-date"><em>Date posted: 2022-09-26</em></p>
+            <p class="text offer-cta">Pure Liquid Mercury for export!</p>
+            <p class="text offer-description">
+              <strong>Specifications:</strong> Virgin Silver Liquid Mercury
+              99.999% FOB price from Dubai : 80$ per kg Sold in flasks of 34.5kg
+              and minimum order is 30 flasks 200 flasks available.
+            </p>
+          </div>
+          <div class="offer-container filter-div natural-resources">
+            <h3 class="heading-tertiary">Thermal Coal</h3>
+            <p class="text offer-date"><em>Date posted: 2022-08-03</em></p>
+            <p class="text offer-cta">Bulk Type B Thermal Coal for export!</p>
+            <p class="text offer-description">
+              Bulk Type B Thermal Coal for sale. Mined from Colombia.
+              Specifications and SGS report attached.
+            </p>
+            <div class="offer-links">
+              <a
+                href="../../docs/thermal-coal.pdf"
+                class="offer-link"
+                target="_blank"
+                >Specifications</a
+              >
+              <a
+                href="../../docs/sgs-report.jpeg"
+                class="offer-link"
+                target="_blank"
+                >SGS Report</a
+              >
+            </div>
+          </div>
+          <div class="offer-container filter-div coffee">
+            <h3 class="heading-tertiary">Coffee</h3>
+            <p class="text offer-date"><em>Date posted: 2022-09-28</em></p>
+            <p class="text offer-cta">
+              Honduran Coffee beans containers for sale!
+            </p>
+            <p class="text offer-description">
+              40ft containers of Honduran coffee beans ready for sale. Honduras
+              is the top coffee exporter in Central America with quality on par
+              with the top growers in the world.
+            </p>
+            <div class="offer-links">
+              <a
+                href="../../docs/gold-coffee.pdf"
+                class="offer-link"
+                target="_blank"
+                >Gold Proposal</a
+              >
+              <a
+                href="../../docs/arabica-coffee.pdf"
+                class="offer-link"
+                target="_blank"
+                >Arabica Proposal</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-cta-page">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">
+                Interested in our offers or want to post yours?
+              </h2>
+              <p class="cta-text">
+                Don't hesitate to contact us if you are interested in importing
+                any of the above goods or would like professional representation
+                in finding your next buyer. We will even post your goods on here
+                free of charge. Just let us know.
+              </p>
+              <form
+                class="cta-form"
+                name="contactForm"
+                class="customform"
+                action="https://submit-form.com/SAX1hj7F"
+                data-botpoison-public-key="pk_6d1691d4-73fc-4cf3-b581-e8aa640481b3"
+                method="POST"
+              >
+                <div>
+                  <label for="full-name">Full Name</label>
+                  <input
+                    id="full-name"
+                    name="name"
+                    type="text"
+                    placeholder="John Snow"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="email">Email Address</label>
+                  <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    placeholder="me@example.com"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="business">Company</label>
+                  <input
+                    id="business"
+                    name="business"
+                    type="text"
+                    placeholder="ABC Company"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="select-where">Where did you hear from us?</label>
+                  <select id="select-where" name="select-where" required>
+                    <option value="">Please choose one option:</option>
+                    <option value="friends">Friends and family</option>
+                    <option value="youtube">LinkedIn</option>
+                    <option value="podcast">Other Social</option>
+                    <option value="podcast">Search Engine</option>
+                    <option value="facebook">Advertisement</option>
+                    <option value="other">Others</option>
+                  </select>
+                </div>
+                <div class="form-detail">
+                  <label for="form-request">How can we help</label>
+                  <textarea
+                    rows="4"
+                    name="form-request"
+                    id="form-request"
+                    placeholder="We are looking for..."
+                  ></textarea>
+                </div>
+                <button class="btn btn--form" type="submit">Submit</button>
+              </form>
+            </div>
+            <div
+              class="cta-img-box"
+              role="img"
+              aria-label="Woman enjoying food"
+            ></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="grid grid--footer">
+        <div class="footer-bio">
+          <a class="footer-logo" href="../../index.html">
+            <img
+              class="logo-footer"
+              src="../../img/logos/logo-footer.png"
+              alt="pwe-logo"
+            />
+          </a>
+          <p class="footer-bio-text">
+            We are international exporters, importers and trade brokers located
+            in the United States of America. For inquiries, please visit our
+            contact page.
+          </p>
+        </div>
+
+        <div class="address-col">
+          <p class="footer-heading">Contact us</p>
+          <address class="contacts">
+            <p class="address">
+              1225 N 36th Street #1047, <br />Phoenix, Arizona 85008
+            </p>
+            <p>
+              <a class="footer-link" href="tel:1-559-475-3805"
+                >+1-559-475-3805</a
+              ><br />
+              <a
+                class="footer-link"
+                href="mailto:info@pinedawileyenterprises.com"
+                >info@pinedawileyenterprises.com</a
+              >
+            </p>
+          </address>
+        </div>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Useful Links</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="../../index.html">Home</a></li>
+            <li>
+              <a class="footer-link" href="../../services.html">Services</a>
+            </li>
+            <li><a class="footer-link" href="../../about.html">About</a></li>
+            <li><a class="footer-link" href="../../blog.html">Blog</a></li>
+            <li>
+              <a class="footer-link" href="../../contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Follow Us</p>
+          <ul class="social-links">
+            <li>
+              <a
+                class="footer-link"
+                href="https://www.linkedin.com/company/pineda-wiley-enterprises-llc/"
+                target="_blank"
+                ><ion-icon class="social-icon" name="logo-linkedin"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a
+                class="footer-link"
+                href="https://www.instagram.com/pinedawiley.ent/"
+                target="_blank"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a
+                class="footer-link"
+                href="https://www.facebook.com/pinedawiley.ent"
+                target="_blank"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="copy-policies">
+        <p class="copyright">
+          Copyright <span class="year">2022</span>, Pineda & Wiley Enterprises,
+          LLC. All rights reserved.
+        </p>
+        <div class="policies">
+          <a href="../../terms-conditions.html" class="policy"
+            >Terms & Conditions</a
+          >
+          <a href="../../privacy-policy.html" class="policy">Privacy Policy</a>
+          <a href="../../sitemap.xml" class="policy">Site Map</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
