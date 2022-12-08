@@ -280,6 +280,11 @@ Instead, 1rem = 1em = 16px
   .import-export-img {
     height: 30rem;
   }
+
+  .grid--blog {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 4.8rem;
+  }
 }
 
 /* BELOW 704 pixels (Tablets) */
@@ -644,5 +649,14 @@ Instead, 1rem = 1em = 16px
 
   .btn--offer {
     font-size: 1.4rem;
+  }
+
+  .section-blog {
+    padding: 12.8rem 0;
+  }
+
+  .grid--blog {
+    grid-template-columns: 1fr;
+    max-width: 50rem;
   }
 }
