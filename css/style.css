@@ -293,7 +293,7 @@ body {
 
 .main-nav ul li a {
   display: block;
-  padding: 0.8rem 1.6rem;
+  padding: 0.8rem 1.2rem;
   color: #bcc7db;
   text-decoration: none;
   font-weight: 500;
@@ -1057,7 +1057,7 @@ tbody tr:nth-child(even) {
 .heading-blog {
   font-size: 6.2rem;
   line-height: 1.05;
-  margin-bottom: 2rem;
+  margin-bottom: 2.4rem;
 }
 
 .blog-tags {
@@ -1104,6 +1104,33 @@ tbody tr:nth-child(even) {
 .section-subscribe-cta {
   padding: 0 0 12.8rem 0;
 }
+
+/**************************/
+/* RESOURCES */
+/**************************/
+
+.section-resource {
+  padding: 12.8rem 0;
+}
+
+.resource-title:link,
+.resource-title:visited {
+  display: block;
+  font-size: 3.2rem;
+  color: #1f4586;
+  transition: all 0.3s;
+  margin-bottom: 1.8rem;
+}
+
+.resource-title:hover,
+.resource-title:active {
+  color: #0c1c36;
+}
+
+.resource-description {
+  font-size: 2rem;
+}
+
 
 /**************************/
 /* POLICIES */
