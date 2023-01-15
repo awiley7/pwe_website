@@ -439,6 +439,18 @@ Instead, 1rem = 1em = 16px
   .btn--offer {
     font-size: 1.6rem;
   }
+
+  .heading-blog {
+    font-size: 4.4rem;
+  }
+
+  .blog-banner {
+    height: 30rem;
+  }
+
+  .blog-body-section {
+    font-size: 2.4rem;
+  }
 }
 
 /* BELOW 544 pixels (Phones) */
@@ -571,7 +583,7 @@ Instead, 1rem = 1em = 16px
     text-align: center;
   }
 
-  .heading-primary {
+  .heading-primary, .heading-blog {
     font-size: 5.2rem;
   }
 
@@ -655,8 +667,16 @@ Instead, 1rem = 1em = 16px
     padding: 12.8rem 0;
   }
 
+  .heading-blog {
+    font-size: 3.6rem;
+  }
+
   .grid--blog {
     grid-template-columns: 1fr;
     max-width: 50rem;
+  }
+
+  .blog-banner {
+    height: 25rem;
   }
 }
