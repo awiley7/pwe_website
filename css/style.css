@@ -1127,6 +1127,14 @@ tbody tr:nth-child(even) {
   margin-left: 3.2rem;
 }
 
+.blog-body .text {
+  margin-bottom: 2.4rem;
+}
+
+.blog-body ol li {
+  margin-bottom: 1.2rem;
+}
+
 .section-subscribe-cta {
   padding: 0 0 12.8rem 0;
 }
